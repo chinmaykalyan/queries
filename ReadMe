@@ -1,0 +1,40 @@
+README FILE
+
+
+
+3.Please attach or provide links to at least two SQL samples that you wrote that demonstrate an advanced SQL proficiency.
+Describe the functionality of the query and the intended data results.
+
+
+Code 1 includes the SQL for a report request for The Residency of students Enrolled for a given term for Corky Plus and Hornet Nation students
+
+Reason-Student Address Change transition due to COVID-19
+
+1.Corky Plus Students are students with county codes ('MO003','MO013','MO021','MO025','MO037','MO047','MO049','MO063','MO095','MO101','MO107','MO117','MO165','MO177')
+2.Hornet Nation students are students with county codes('OK017','OK021','OK037','OK047','OK051','OK053','OK071','OK073','OK081','OK083','OK087','OK101','OK103',
+'OK105','OK107','OK109','OK111','OK113','OK117','OK119','OK125','OK131','OK143','OK145','OK147').
+3.First Priority to Permanant Mailing PM and then Mailing Address MA of the student from table spraddr by using rnum and partition by.
+4.Priority to the most Active recent Permanent Mailing address or Mailing Address
+5.Registration codes of the codes sfrstcr_rsts_code IN ('AU', 'RE', 'RW')) AU is audit RE is Registered RW is Registered Web
+6.The propmts can be substituted for any term intake . FOr eg-202010 is Spring 2020 ,202030 is Summer 2020 and 202050 is Fall 2020.
+
+
+Code 2 includes the SQL for a report request to obtain a list of first-generation, 
+currently-enrolled undergrads for identification and recruitment of potential McNair Scholars.
+
+Reason-For identification and recruitment of potential McNair Scholars (First Generation Students)
+
+1.Details of the First Gen students like first name ,EID ,address.etc
+2.Details of condifentiality indicator Spbpers_confid_ind on whether student wants to disclose information or not.
+3.First Priority to Permanant Mailing PM and then Mailing Address MA of the student from table spraddr by using rnum and partition by.
+4.spbpers_lgcy_code = 1  for students who are first generation.
+5.The propmts can be substituted for any term intake . FOr eg-202010 is Spring 2020 ,202030 is Summer 2020 and 202050 is Fall 2020.
+6.Stvclas is for the classification if student like Freshman,Junior,Sophmore,Senior.
+
+
+
+
+
+
+                                                                                                                                                    
+                                                                                                                                                    
