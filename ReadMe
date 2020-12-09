@@ -1,10 +1,4 @@
-README FILE
-
-
-
-3.Please attach or provide links to at least two SQL samples that you wrote that demonstrate an advanced SQL proficiency.
-Describe the functionality of the query and the intended data results.
-
+Code 1 Description
 
 Code 1 includes the SQL for a report request for The Residency of students Enrolled for a given term for Corky Plus and Hornet Nation students
 
@@ -18,6 +12,9 @@ Reason-Student Address Change transition due to COVID-19
 5.Registration codes of the codes sfrstcr_rsts_code IN ('AU', 'RE', 'RW')) AU is audit RE is Registered RW is Registered Web
 6.The propmts can be substituted for any term intake . FOr eg-202010 is Spring 2020 ,202030 is Summer 2020 and 202050 is Fall 2020.
 
+
+
+Code 2 Description
 
 Code 2 includes the SQL for a report request to obtain a list of first-generation, 
 currently-enrolled undergrads for identification and recruitment of potential McNair Scholars.
